@@ -1,0 +1,215 @@
+@font-face {
+    font-family: snellRoundHand;
+    src: url(assets/fonts/snellRoundHand/SnellRoundhand.ttc);
+}
+@font-face {
+    font-family: georgiaa;
+    src: url(assets/fonts/georgia/Georgia.ttf);
+}
+@font-face {
+    font-family: butler;
+    src: url(assets/fonts/butler/Butler_Regular.otf);
+}
+@font-face {
+    font-family: butler_light;
+    src: url(assets/fonts/butler/Butler_Ultra_Light.otf);
+}
+@font-face {
+    font-family: butler_bold;
+    src: url(assets/fonts/butler/Butler_ExtraBold.otf);
+}
+@font-face {
+    font-family: georgia_bold;
+    src: url(assets/fonts/georgia/GeorgiaBold.ttf);
+}
+.snellRoundHandFont{
+    font-family: snellRoundHand;
+}
+.georgiaFont{
+    font-family: georgiaa;
+}
+.butlerFont{
+    font-family: butler;
+}
+.hero{
+    min-height: 100vh;
+}
+.hero h4{
+    font-family: georgiaa;
+    font-size: 1rem;
+}
+.hero h3{
+    font-family: butler;
+    font-size: 2rem;
+}
+.modal-body{
+    text-align: center;
+    min-height: 100vh;
+}
+.modal-body h4{
+    font-family: georgiaa;
+    font-size: 1rem;
+}
+.modal #flower1{
+    width: 500px; position: absolute; bottom: 0px; left: 0px; 
+}
+@media only screen and (max-width: 800px) {
+    .modal #flower1{
+        width: 300px; position: absolute; bottom: 0px; left: 0px;
+    }
+}
+
+.btn-primary {
+    color: #212529;
+    background-color: rgb(116, 149, 142);
+    border-color: #86acac
+}
+.btn-primary:hover {
+    color: #212529;
+    background-color: #d0e1e1;
+    border-color: #edffff
+}
+.brideGroomFont{
+    font-family: butler_light;
+    font-size: 5rem;
+}
+#hero #brideGroomName{
+    max-width: 550px;
+    padding: 30px 0 30px;
+    align-items: center;
+}
+@media only screen and (max-width: 800px) {
+    #hero #brideGroomName{
+        max-width: 400px;
+        padding: 30px 0 30px;
+        align-items: center;
+    }
+}
+
+#hero #flower2 {
+    width: 350px; position: absolute; top: 0px; left: 0px;
+}
+
+@media only screen and (max-width: 800px) {
+    #hero #flower2 {
+        width: 200px; position: absolute; top: 0px; left: 0px;
+    }
+}
+
+#hero #flower3 {
+    width: 200px; position: absolute; bottom: 0px; right: 0px;
+}
+  
+@media only screen and (max-width: 800px) {
+#hero #flower3 {
+    width: 130px; position: absolute; bottom: 0px; right: 0px;
+    }
+}
+#page-2 h4{
+    font-family: georgiaa;
+    font-size: 1rem;
+}
+#page-2 .doa{
+    background-color: rgb(255, 221, 238);
+    padding: 60px 200px 60px 200px;
+    margin-bottom: 70px;
+}
+@media only screen and (max-width: 800px) {
+    #page-2 .doa{
+        background-color: rgb(255, 221, 238);
+        padding: 30px 30px 30px 30px;
+        margin-bottom: 50px;
+    }
+}
+#page-2 .doa h3{
+    font-family: georgiaa;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+#page-2 .doa h2{
+    font-family: georgia-bold;
+    font-size: 2rem;
+    line-height: 1.8;
+}
+
+table.center{
+    margin:auto;
+    font-family: georgiaa;
+    font-size: 1.5rem;
+}
+
+#page-3{
+    margin: 30px;
+}
+#page-3 p{
+    font-family: georgiaa;
+    font-size: 1rem;
+}
+#page-3 .content-page3{
+    background-image: url(img/aset_6.png);
+    background-size: 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0px; 
+}
+#page-3 #flower4{
+    width: 350px; position: absolute; top: 1650px; right: 0px;
+}
+@media only screen and (max-width: 800px) {
+    #page-3 #flower4{
+        width: 150px; position: absolute; top: 2100px; right: 0px; z-index:-1;
+    }
+}
+#page-3 #flower5{
+    width: 310px; position: absolute; top: 1800px; left: 0px;
+}
+@media only screen and (max-width: 800px) {
+    #page-3 #flower5{
+        width: 150px; position: absolute; top:2400px; right: 0px; z-index:-1;
+    }
+}
+#maps{
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+}
+#page-4{
+    margin: 70px;
+    padding: 40px 0 40px 0;
+}
+
+#page-4 #logo-invaite{
+    width : 120px;
+}
+
+#page-4 #brideGroomName-footer{
+    max-width: 450px;
+    padding: 30px 0 30px;
+    align-items: center;
+}
+@media only screen and (max-width: 800px) {
+    #page-4 #brideGroomName-footer{
+        max-width: 300px;
+        padding: 30px 0 30px;
+    }
+}
+#page-4 #flower26{
+    width: 250px; position: absolute; top: 4000px; right: 0px;
+}
+@media only screen and (max-width: 800px) {
+    #page-4 #flower26{
+        width: 130px; position: absolute; top: 4150px; right: 0px;
+    }
+}
+#page-4 #flower25{
+    width: 250px; position: absolute; top: 4000px; left: 0px;
+}
+@media only screen and (max-width: 800px) {
+    #page-4 #flower25{
+        width: 130px; position: absolute; top: 4150px; left: 0px;
+    }
+}
+#page-5 #foto-bridegroom{
+    width: 100%;
+    height: auto;
+}
